@@ -1,0 +1,46 @@
+# === Bloqueio Específico do Anaconda deste projeto ===
+# Impede o envio do arquivo instalador .sh
+Anaconda3-2025.06-1-MacOSX-x86_64.sh
+# Caso o instalador tenha criado uma pasta com esse mesmo nome
+Anaconda3-2025.06-1-MacOSX-x86_64/
+# Proteção extra para qualquer pasta padrão do Anaconda/Miniconda local
+anaconda3/
+miniconda3/
+env/
+venv/
+.env/
+
+# === Arquivos Temporários do Python ===
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# === Ambientes Virtuais e Distribuições ===
+.eggs/
+dos/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.lib/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# === Arquivos do Sistema Operacional (Mac) ===
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
