@@ -8,8 +8,9 @@ anaconda3/
 miniconda3/
 env/
 venv/
+.venv/
 .env/
-
+.env
 # === Arquivos Temporários do Python ===
 __pycache__/
 *.py[cod]
